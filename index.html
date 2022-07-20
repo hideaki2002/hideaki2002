@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>創価大学の桜紹介</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="top">創価大学の桜紹介</h1>
+    </header>
+    
+    <div>
+        <img src="./img/seimon.jpg" alt="seimon" id="seimon">
+    </div>
+    <p>創価大学では約2500本の桜が植えられています。</p>
+    <p>今回はその中でも自分がきれいだと思った桜の写真を紹介します。</p>
+
+    <div>
+        <h2>目次</h2>
+    </div>
+    <ol>
+        <li><span>1</span><a href="#jositan">レインボー階段</a></li>
+        <li><span>2</span><a href="#yukiyanagi">雪柳の道前</a></li>
+        <li><span>3</span><a href="#ouka">桜花の道</a></li>
+        <li><span>4</span><a href="#sidare">しだれ桜</a></li>
+    </ol>
+
+    <div>
+        <h2 id="jositan">レインボー階段</h2>
+        <img src="./img/jositan.jpg" alt="jositan" class="sakura">
+        <p>創価女子短期大学の前にあるレインボー階段で撮った写真です。</p>
+    </div>
+
+    <div>
+        <h2 id="yukiyanagi">雪柳の道前</h2>
+        <img src="./img/yukiyanagi.jpg" alt="yukiyanagi" class="sakura">
+        <p>松風センターの前にある雪柳の道で撮った写真です。</p>
+    </div>
+
+    <div>
+        <h2 id="ouka">桜花の道</h2>
+        <img src="./img/ouka.jpg" alt="ouka" class="sakura">
+        <p>正門入ってすぐの桜花の道で撮った写真です。</p>
+    </div>
+
+    <div>
+        <h2 id="sidare">しだれ桜</h2>
+        <img src="./img/sidare.jpg" alt="sidare" class="sakura">
+        <p>中央教育棟の前にあるしだれ桜を撮った写真です。</p>
+        <img src="./img/yoru.jpg" alt="yoru" class="sakura">
+        <p>夜versionもとてもきれいです。</p>
+    </div>
+
+    <div>
+        <p>とてもきれいな桜なのでぜひ見に来てください</p>
+        <h3 class="h3">住所:〒192-8577
+            東京都八王子市丹木町1-236</h3>
+    </div>
+
+<br>
+    <div>
+        <h2>どの桜を最初に見るか決めきれないあなたへ</h2>
+        <p>どれもきれいすぎて何を最初に見ればいいかわからない！</p>
+        <p>そんなあなたのためにルーレットを作りました。ぜひご活用ください。</p>
+    </div>
+
+    <div>
+        <button type="button" onClick="sakura()">スタート</button>
+        <p id="result"></p>
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <h3 class="matome">創価大学の桜はきれい！</h3>
+    </div>
+
+    <div>
+        <div>
+            <h2>この記事の感想募集</h2>
+
+            <form action="#" method="post">
+                <label for="surname">名前：</label>
+                <input type="text" name="name" id="surname" required placeholder="名前">
+                <label>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <label for="requests">感想：</label>
+        <textarea name="requests" id="requests" cols="30"></textarea>
+    </div>
+
+    <br>
+
+    <div>
+        <input type="submit" value="送信する">
+        <input type="reset" value="リセット">
+
+    </div>
+<br>
+<br>
+
+<h2>どの写真が一番良かった？</h2>
+<button type="button" onclick="tohyo(1)">レインボー階段</button>
+<button type="button" onclick="tohyo(2)">雪柳の道前</button>
+<button type="button" onclick="tohyo(3)">桜花の道</button>
+<button type="button" onclick="tohyo(4)">しだれ桜</button>
+
+<div>
+    <p><a href="#top">トップに戻る</a></p>
+</div>
+
+</div>
+
+   <script src="js/main.js"></script> 
+
+</body>
+</html>

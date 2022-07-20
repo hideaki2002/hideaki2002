@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+h1 {
+    position: absolute;
+}
+
+.jositan,.yukiyanagi,.ouka,.sidare {
+    font-size: 28px;
+    font-weight: 250;
+    padding: 3px 0;
+    border-bottom: solid 5px #181818;
+}
+
+.h3 {
+    font-size: 130%;
+    margin: 56px 0 20px;
+    padding: 13px 28px 12px;
+    font-weight: 250;
+    background: #f3f3f3;
+    border-radius: 10px;
+}
+
+.matome {
+  position: relative;
+  padding: 1rem 1rem;
+  text-align: center;
+  border: 3px solid #000;
+  border-radius: 0 10px 10px 10px;
+}
+
+.matome:before {
+  font-size: 15px;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -33px;
+  left: -3px;
+  height: 30px;
+  padding: 0 1em;
+  content: 'まとめ';
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  background: #000;
+}
+
+.sakura {
+  width: 85%;
+  height: 400px;
+}
+
+#seimon {
+  width: 100%;
+  height: 200px;
+}
+
+ol {
+  list-style: none;
+}
+
+span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin: 5px 8px 0 0;
+  padding-top: 5px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid pink;
+  background-color: pink;
+  box-sizing: border-box;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
